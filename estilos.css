@@ -1,0 +1,37 @@
+h1 {
+    color: maroon;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    text-align: center;
+}
+
+body {
+    background-image: url(https://images2.alphacoders.com/187/187622.jpg);
+}
+
+.texto {
+    font-family: 'Sansita Swashed', cursive;
+    color: slategray;
+}
+
+.comparacion {
+    width: 301px;
+    height: 301px;
+    margin: auto;
+    position: absolute;
+    top: 640px;
+    right: 300px;
+}
+
+.comparacion1 {
+    width: 301px;
+    height: 250.5px;
+}
+
+.icono {
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    border-radius: 10px;
+    width: 155px;
+    height: 106px;
+}
