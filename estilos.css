@@ -8,32 +8,33 @@ body {
     background-image: url(https://images2.alphacoders.com/187/187622.jpg);
 }
 
-.texto_a {
-    font-family: 'Sansita Swashed', cursive;
-    color: slategray;
-}
-
-.mueble_nuevo {
-    width: 301px;
-    height: 301px;
-    margin: auto;
+.contenedor {
     position: absolute;
-    top: 659px;
-    right: 300px;
+    top: 250px;
+    left: 600px;
 }
 
-.texto_d {
-    font-family: 'Sansita Swashed', cursive;
-    color: slategray;
+.contenedor img {
+    width: 60%;
+    height: 60%;
+    box-shadow: 15px 15px 5px #444;
+}
+
+.video_presentacion {
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+    color: aqua;
+}
+
+.slider {
+    font-size: 30px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif, cursive;
+    color: aqua;
     position: absolute;
-    margin: auto;
-    top: 620px;
-    right: 500px;
-}
-
-.comparacion1 {
-    width: 301px;
-    height: 301px;
+    left: 640px;
+    bottom: 407px;
 }
 
 .icono {
@@ -49,9 +50,10 @@ body {
     list-style: none;
     padding: 0;
     background-color: darkred;
-    width: 90%;
+    width: 35%;
     max-width: 800px;
     margin: auto;
+    position: relative;
 }
 
 .menu li a {
