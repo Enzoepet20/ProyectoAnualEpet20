@@ -6,13 +6,6 @@ h1 {
 
 body {
     background-image: url(https://images2.alphacoders.com/187/187622.jpg);
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: radial-gradient(#673);
 }
 
 .contenedor {
