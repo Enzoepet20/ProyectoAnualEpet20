@@ -79,7 +79,10 @@ body {
     background-color: blueviolet;
 }
 
-.carrousel .grande {}
+.carrousel .grande {
+    width: 400%;
+    background-color: coral;
+}
 
 .carrousel .img {}
 
