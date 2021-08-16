@@ -92,6 +92,7 @@ body {
     justify-content: space-between;
     align-items: center;
     color: black;
+    transition: all 0.4s ease;
     padding: 2em;
     background-color: white;
     box-shadow: 1em 1em 2em;
@@ -100,7 +101,7 @@ body {
 }
 
 .carrousel_madera .img {
-    width: calc(100% / 4 -2em);
+    width: (100% / 2 -2em);
     min-height: 10vh;
     color: black;
     transition: all 0.4s ease;
@@ -111,15 +112,25 @@ body {
 
 .carrousel_madera .puntos {
     width: 100%;
-    padding: .4em;
+    margin: 1em 0 0;
+    padding: 0.4em;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
-.carrousel_madera .puntos {
+.carrousel_madera .punto {
     width: 2em;
     height: 2em;
     margin: 1em 1em 0;
+    color: black;
+    transition: all 0.4s ease;
+    border-radius: 1em;
+    background-color: white;
+    box-shadow: 0.6em 0.6em 1.2em, -0.6em -0.6em 1.2em, inset 0 0 0 transparent, inset 0 0 0 transparent;
+}
+
+.carrousel_madera .punto.activo {
+    background-color: lightblue;
 }
