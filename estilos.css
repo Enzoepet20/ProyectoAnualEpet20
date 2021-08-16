@@ -82,6 +82,10 @@ body {
 .carrousel .grande {
     width: 400%;
     background-color: coral;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .carrousel .img {}
