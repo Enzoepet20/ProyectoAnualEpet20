@@ -13,24 +13,23 @@ body {
     text-align: center;
 }
 
+
+}
 .contenedor {
     position: absolute;
     top: 250px;
     left: 600px;
 }
-
 .contenedor img {
     width: 60%;
     height: 60%;
     box-shadow: 15px 15px 5px #444;
 }
-
 .video_presentacion {
     font-size: 30px;
     font-style: normal;
     color: black;
 }
-
 .slider {
     font-size: 30px;
     font-style: normal;
@@ -39,7 +38,6 @@ body {
     left: 640px;
     bottom: 407px;
 }
-
 .icono {
     right: 0px;
     top: 0px;
@@ -48,7 +46,6 @@ body {
     width: 155px;
     height: 106px;
 }
-
 .menu {
     list-style: none;
     padding: 0;
@@ -58,23 +55,19 @@ body {
     margin: auto;
     position: relative;
 }
-
 .menu li a {
     text-decoration: none;
     color: white;
     padding: 20px;
     display: block;
 }
-
 .menu li {
     display: inline-block;
     text-align: center;
 }
-
 .menu li a:hover {
     background: crimson;
 }
-
 .carrousel_madera {
     width: 90%;
     max-width: 120em;
@@ -86,7 +79,6 @@ body {
     box-shadow: 1em 1em 2em;
     overflow: hidden;
 }
-
 .carrousel_madera .grande {
     width: 400%;
     display: flex;
@@ -101,7 +93,6 @@ body {
     transition: all 0.5s ease;
     transform: translateX(0%);
 }
-
 .carrousel_madera .img {
     width: (100% / 2 -2em);
     min-height: 10vh;
@@ -111,7 +102,6 @@ body {
     background-color: white;
     box-shadow: 1em 1em 2em;
 }
-
 .carrousel_madera .puntos {
     width: 100%;
     margin: 1em 0 0;
@@ -121,7 +111,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .carrousel_madera .punto {
     width: 2em;
     height: 2em;
@@ -132,7 +121,6 @@ body {
     background-color: white;
     box-shadow: 0.6em 0.6em 1.2em, -0.6em -0.6em 1.2em, inset 0 0 0 transparent, inset 0 0 0 transparent;
 }
-
 .carrousel_madera .punto.activo {
     background-color: lightblue;
 }
