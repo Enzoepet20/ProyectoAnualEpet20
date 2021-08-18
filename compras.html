@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <H1><em>CONTACTO</em></H1>
+    <H1>CONTACTO</H1>
     <ul class="menu">
         <li><a href="muebles.html">Inicio</a></li>
         <li><a href="catalago.html">Catalogo</a></li>
@@ -18,14 +18,14 @@
         <li><a href="contacto.html">Contacto</a></li>
         <li><a href="compras.html">Compras</a></li>
     </ul>
-    <form action="ejemplo.php" method="get">
-        <h3><strong>Contactenos:</strong></h3>
-        <p><em>Su nombre completo:</em><input type="text" name="nombre" size="40"></p>
-        <p><em>Numero de telefono celular:</em> <input type="number" name="num" min="1900"></p>
-        <p><em>Correo electronico: </em><input type="text" name="correo" size="40"></p>
-        <p><em>Escriba su consulta:</em> <input type="text" name="consulta" size="40"></p>
+    <form action="ejemplo.php" method="post">
+        <h3>Contactenos:</h3>
+        <input type="text" required="" placeholder="Su nombre completo:"></p>
+        <input type="tel" required="" placeholder="Numero de telefono celular:"></p>
+        <input type="email" required="" placeholder="Correo electronico:"></p>
+        <input type="text" required="" placeholder="Escriba su consulta:"></p>
         <p>
-            <input type="submit" value="Enviar">
+            <input type="submit">
             <input type="reset" value="Borrar">
         </p>
     </form>
