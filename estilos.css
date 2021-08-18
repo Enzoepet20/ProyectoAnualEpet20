@@ -6,7 +6,7 @@ h1 {
 
 body {
     background-image: url(fondo/433738.jpg);
-    background-size: 100%;
+    background-attachment: fixed;
 }
 
 .contenedor {
