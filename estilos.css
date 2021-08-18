@@ -9,6 +9,10 @@ body {
     background-attachment: fixed;
 }
 
+.mueblestitulo {
+    text-align: center;
+}
+
 .contenedor {
     position: absolute;
     top: 250px;
