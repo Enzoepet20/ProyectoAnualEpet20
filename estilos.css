@@ -56,7 +56,7 @@ body {
     width: 43%;
     max-width: 800px;
     margin: auto;
-    position: relative;
+    position: fixed;
 }
 
 .menu li a {
@@ -103,7 +103,7 @@ body {
 }
 
 .carrousel_madera .img {
-    width: (100% / 2 -2em);
+    width: 50%-2em;
     min-height: 10vh;
     color: black;
     transition: all 0.4s ease;
@@ -114,7 +114,7 @@ body {
 
 .carrousel_madera .puntos {
     width: 100%;
-    margin: 1em 0 0;
+    margin: 0 0 0 0 0 0;
     padding: 0.4em;
     display: flex;
     flex-flow: row nowrap;
@@ -135,4 +135,20 @@ body {
 
 .carrousel_madera .punto.activo {
     background-color: lightblue;
+}
+
+.btn-wsp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 63px;
+    bottom: 25px;
+    right: 25px;
+    background: #25d366;
+    border-radius: 50px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-wsp:hover {
+    background: #20ba5a;
 }
