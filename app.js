@@ -28,3 +28,6 @@ punto.forEach((cadaPunto, i) => {
 
     })
 })
+let boton_wpp = document.getElementById("boton_wpp");
+boton_wpp.innerHTML += `<a href="https://api.whatsapp.com/send?phone=+5492994181952" class="btn-wsp" target="_blank"><img src="icono/WhatsApp-logo.png" class="btn-wsp" alt="">
+</a> `
