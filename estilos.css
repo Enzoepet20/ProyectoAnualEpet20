@@ -152,3 +152,51 @@ body {
 .btn-wsp:hover {
     background: #20ba5a;
 }
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+}
+
+.info {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.info li {
+    margin: 0 10px;
+}
+
+.info a {
+    text-decoration: none;
+    color: brown;
+}
+
+.info a i {
+    font-size: 1.1 rem;
+    transition: color.4s ease;
+}
+
+.info a:hover i {
+    text-decoration: none;
+    color: brown;
+}
