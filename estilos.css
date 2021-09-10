@@ -153,6 +153,15 @@ body {
     background: #20ba5a;
 }
 
+footer {
+    background: rgb(110, 74, 74);
+    height: auto;
+    width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+    color: #fff;
+}
+
 .footer-content {
     display: flex;
     align-items: center;
@@ -172,31 +181,32 @@ body {
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
+    font-size: 14px;
 }
 
-.info {
+.socials {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 3rem 0;
 }
 
-.info li {
+.socials li {
     margin: 0 10px;
 }
 
-.info a {
+.socials a {
     text-decoration: none;
     color: brown;
 }
 
-.info a i {
+.socials a i {
     font-size: 1.1 rem;
     transition: color.4s ease;
 }
 
-.info a:hover i {
+.socials a:hover i {
     text-decoration: none;
     color: brown;
 }
