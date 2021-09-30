@@ -153,4 +153,8 @@ body {
     background: #20ba5a;
 }
 
-.footer-content {}
+.footer-content {
+    width: 100%;
+    background: #25d366;
+    color: black;
+}
