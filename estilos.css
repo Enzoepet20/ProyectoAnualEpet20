@@ -158,3 +158,9 @@ body {
     background: #25d366;
     color: black;
 }
+
+.socials {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+}
