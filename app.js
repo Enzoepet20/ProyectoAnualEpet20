@@ -56,19 +56,16 @@ ctfooter.innerHTML += ` <footer class="ct-footer">
             </h2>
             <ul>
                 <li>
-                    <a href="https://api.whatsapp.com/send?phone=+5492994181952">wpp</a>
+                    <a href="https://api.whatsapp.com/send?phone=+5492994181952">Whatsapp</a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/rayen.millahual.12">fc</a>
+                    <a href="https://www.facebook.com/rayen.millahual.12">Facebook</a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/christian_beltran79/">ig</a>
+                    <a href="https://www.instagram.com/christian_beltran79/">Instagram</a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/Rayen_raa">tw</a>
-                </li>
-                <li>
-                    <a href="">lk</a>
+                    <a href="https://twitter.com/Rayen_raa">Twitter</a>
                 </li>
             </ul>
         </li>
