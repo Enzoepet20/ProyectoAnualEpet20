@@ -1,9 +1,3 @@
-h1 {
-    color: maroon;
-    font-family: 'Montserrat Subrayada', sans-serif;
-    text-align: center;
-}
-
 body {
     background-image: url(fondo/433738.jpg);
     background-attachment: fixed;
@@ -101,150 +95,222 @@ ul.show {
 
 @media screen and (max-width:952px) {
     .logo {
-        font-size: 30px;
-        padding-left: 35px;
+        width: 10px;
     }
-    .menu_items li a {
-        font-size: 16px;
+    body {
+        background-image: url(fondo/433738.jpg);
+        background-attachment: fixed;
     }
-}
-
-@media screen and (max-width:858px) {
-    .menu {
-        height: 65px;
-    }
-    .btn_menu {
-        display: inline-flex;
-    }
-    .menu_items {
-        position: fixed;
-        width: 100vw;
-        height: calc(100%-65px);
-        background: grey;
-        top: -100vw;
+    .mueblestitulo {
         text-align: center;
-        transition: all .4s;
-        flex-direction: column;
     }
-    .menu_items li {
-        margin: 30px 0 0 0;
-        line-height: 30px;
+    .contenedor {
+        position: absolute;
+        top: 250px;
+        left: 600px;
     }
-    .menu_items li:hover {
-        background: none;
+    .contenedor img {
+        width: 60%;
+        height: 60%;
+        box-shadow: 15px 15px 5px #444;
     }
-    .menu_items li a {
-        font-size: 70px;
-        color: white;
-        font-weight: bold;
+    .video_presentacion {
+        font-size: 30px;
+        font-style: normal;
+        color: black;
     }
-    .menu_items li a:hover {
-        color: red;
+    .slider {
+        font-size: 30px;
+        font-style: normal;
+        color: black;
+        position: absolute;
+        left: 640px;
+        bottom: 407px;
+    }
+    .menu {
+        background-color: rgb(208, 108, 108);
+        width: 100vw;
+        height: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
     }
     .logo {
-        font-size: 25px;
-        padding-left: 35px;
+        color: white;
+        font-size: 35px;
+        padding: 0 80px;
+        font-weight: bold;
     }
-}
-
-.carrousel_madera {
-    width: 400px;
-    height: 400px;
-    padding: 2em;
-    color: black;
-    transition: all 0.4s ease;
-    border-radius: 1em;
-    background-color: white;
-    box-shadow: 1em 1em 2em;
-    overflow: hidden;
-}
-
-.carrousel_madera .grande {
-    width: 400%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: center;
-    color: black;
-    transition: all 0.4s ease;
-    padding: 1em;
-    background-color: white;
-    box-shadow: 0.5em 0.5em 1em;
-    transition: all 0.5s ease;
-    transform: translateX(0%);
-}
-
-.carrousel_madera .img {
-    width: 50%-2em;
-    min-height: 10vh;
-    color: black;
-    transition: all 0.4s ease;
-    border-radius: 1em;
-    background-color: white;
-    box-shadow: 1em 1em 2em;
-    height: 300px;
-}
-
-.carrousel_madera .puntos {
-    width: 100%;
-    padding: 0.4em;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.carrousel_madera .punto {
-    width: 2em;
-    height: 2em;
-    margin: 1em 1em 0;
-    transition: all 0.4s ease;
-    border-radius: 1em;
-    background-color: white;
-    box-shadow: 0.06em 0.06em 0.2em, -0.06em -0.06em 0.2em;
-}
-
-.carrousel_madera .punto.activo {
-    background-color: green;
-    box-shadow: 0.06em 0.06em 0.2em, -0.06em -0.06em 0.2em;
-}
-
-.btn-wsp {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    line-height: 63px;
-    bottom: 25px;
-    right: 25px;
-    background: #25d366;
-    border-radius: 50px;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
-}
-
-.btn-wsp:hover {
-    background: #20ba5a;
-}
-
-.ct-footer-list {
-    background: #edc0c5;
-    list-style: none;
-    width: 100%;
-}
-
-.ct-footer-list>li {
-    width: 20%;
-    display: table-cell;
-    vertical-align: top
-}
-
-.ct-footer-list>li:last-child {
-    width: 7%
-}
-
-.ct-footer-list>li ul li a {
-    color: rgb(162, 76, 76);
-}
-
-.ct-footer-list>li ul li a:hover {
-    text-decoration: underline
+    .menu_items {
+        display: flex;
+        list-style: none;
+        margin-right: 30px;
+    }
+    .menu_items li {
+        border-radius: 3px;
+        margin: 0 5px;
+    }
+    .menu_items li a {
+        padding: 7px 13px;
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+        text-transform: uppercase;
+        color: white;
+    }
+    .menu_items li:hover,
+    li.activo {
+        background-color: rgba(0, 0, 0, 0.3);
+        transition: .4s;
+    }
+    .btn_menu {
+        margin-right: 30px;
+        font-size: 25px;
+        color: white;
+        cursor: pointer;
+        display: none;
+    }
+    ul.show {
+        top: 65px;
+    }
+    @media screen and (max-width:952px) {
+        .logo {
+            font-size: 30px;
+            padding-left: 35px;
+        }
+        .menu_items li a {
+            font-size: 16px;
+        }
+    }
+    @media screen and (max-width:858px) {
+        .menu {
+            height: 65px;
+        }
+        .btn_menu {
+            display: inline-flex;
+        }
+        .menu_items {
+            position: fixed;
+            width: 100vw;
+            height: calc(100%-65px);
+            background: grey;
+            top: -100vw;
+            text-align: center;
+            transition: all .4s;
+            flex-direction: column;
+        }
+        .menu_items li {
+            margin: 30px 0 0 0;
+            line-height: 30px;
+        }
+        .menu_items li:hover {
+            background: none;
+        }
+        .menu_items li a {
+            font-size: 70px;
+            color: white;
+            font-weight: bold;
+        }
+        .menu_items li a:hover {
+            color: red;
+        }
+        .logo {
+            font-size: 25px;
+            padding-left: 35px;
+        }
+    }
+    .carrousel_madera {
+        width: 400px;
+        height: 400px;
+        padding: 2em;
+        color: black;
+        transition: all 0.4s ease;
+        border-radius: 1em;
+        background-color: white;
+        box-shadow: 1em 1em 2em;
+        overflow: hidden;
+    }
+    .carrousel_madera .grande {
+        width: 400%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        color: black;
+        transition: all 0.4s ease;
+        padding: 1em;
+        background-color: white;
+        box-shadow: 0.5em 0.5em 1em;
+        transition: all 0.5s ease;
+        transform: translateX(0%);
+    }
+    .carrousel_madera .img {
+        width: 50%-2em;
+        min-height: 10vh;
+        color: black;
+        transition: all 0.4s ease;
+        border-radius: 1em;
+        background-color: white;
+        box-shadow: 1em 1em 2em;
+        height: 300px;
+    }
+    .carrousel_madera .puntos {
+        width: 100%;
+        padding: 0.4em;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .carrousel_madera .punto {
+        width: 2em;
+        height: 2em;
+        margin: 1em 1em 0;
+        transition: all 0.4s ease;
+        border-radius: 1em;
+        background-color: white;
+        box-shadow: 0.06em 0.06em 0.2em, -0.06em -0.06em 0.2em;
+    }
+    .carrousel_madera .punto.activo {
+        background-color: green;
+        box-shadow: 0.06em 0.06em 0.2em, -0.06em -0.06em 0.2em;
+    }
+    .btn-wsp {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        line-height: 63px;
+        bottom: 25px;
+        right: 25px;
+        background: #25d366;
+        border-radius: 50px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    }
+    .btn-wsp:hover {
+        background: #20ba5a;
+    }
+    .ct-footer-list {
+        background: #e9cbcb;
+        list-style: none;
+        width: 100%;
+    }
+    .ct-footer-list-header h2 {
+        color: rgb(206, 91, 93)(45, 220, 243);
+    }
+    .ct-footer-list li {
+        color: rgb(206, 91, 93)(45, 220, 243);
+        width: 20%;
+        display: table-cell;
+        vertical-align: top;
+    }
+    .ct-footer-list>li:last-child {
+        width: 7%
+    }
+    .ct-footer-list>li ul li a {
+        color: rgb(162, 76, 76);
+    }
+    .ct-footer-list li ul li a:hover {
+        text-decoration: underline;
+    }
 }
