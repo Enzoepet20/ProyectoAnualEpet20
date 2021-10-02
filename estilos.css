@@ -40,39 +40,107 @@ body {
     bottom: 407px;
 }
 
-.icono {
-    right: 0px;
-    top: 0px;
-    position: absolute;
-    border-radius: 10px;
-    width: 155px;
-    height: 106px;
-}
-
 .menu {
-    list-style: none;
-    padding: 0;
-    background-color: darkred;
-    width: 43%;
-    max-width: 800px;
-    margin: auto;
-    position: fixed;
+    background-color: red;
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
 }
 
-.menu li a {
-    text-decoration: none;
+.logo {
     color: white;
-    padding: 20px;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+}
+
+.menu_items {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu_items li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu_items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
     display: block;
+    text-transform: uppercase;
+    color: white;
 }
 
-.menu li {
-    display: inline-block;
-    text-align: center;
+.menu_items li:hover,
+li.activo {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: .4s;
 }
 
-.menu li a:hover {
-    background: crimson;
+.btn_menu {
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+ul.show {
+    top: 65px;
+}
+
+@media screen and (max-width:952px) {
+    .logo {
+        font-size: 30px;
+        padding-left: 35px;
+    }
+    .menu_items li a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:858px) {
+    .menu {
+        height: 65px;
+    }
+    .btn_menu {
+        display: inline-flex;
+    }
+    .menu_items {
+        position: fixed;
+        width: 100vw;
+        height: calc(100%-65px);
+        background: grey;
+        top: -100vw;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+    .menu_items li {
+        margin: 30px 0 0 0;
+        line-height: 30px;
+    }
+    .menu_items li:hover {
+        background: none;
+    }
+    .menu_items li a {
+        font-size: 70px;
+        color: white;
+        font-weight: bold;
+    }
+    .menu_items li a:hover {
+        color: red;
+    }
+    .logo {
+        font-size: 25px;
+        padding-left: 35px;
+    }
 }
 
 .carrousel_madera {
