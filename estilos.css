@@ -77,8 +77,7 @@ body {
     color: white;
 }
 
-.menu_items li:hover,
-li.activo {
+.menu_items li:hover {
     background-color: rgba(0, 0, 0, 0.3);
     transition: .4s;
 }
