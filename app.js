@@ -1,11 +1,3 @@
-let arraySrc = [
-    'img_slider/1.jpg',
-    'img_slider//2.jpg',
-    'img_slider//3.jpg',
-    'img_slider//4.jpg'
-];
-const img = document.getElementById('img');
-let i = 0;
 const showImg = () => {
     img.src = arraySrc[i];
     i = (i < arraySrc.length - 1) ? i + 1 : 0;
