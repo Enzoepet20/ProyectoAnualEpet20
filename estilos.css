@@ -222,13 +222,9 @@ ul.show {
 }
 
 .ct-footer-list {
-    padding: 50px 0;
+    background: #edc0c5;
     list-style: none;
-    padding-left: 0;
-    display: table;
     width: 100%;
-    border-bottom: 1px solid #555;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .ct-footer-list>li {
