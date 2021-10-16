@@ -7,6 +7,27 @@ body {
     text-align: center;
 }
 
+.izq {
+    position: relative;
+    left: 10px;
+    bottom: 200px;
+    max-width: 300px;
+}
+
+.derecha {
+    position: relative;
+    bottom: 200px;
+    max-width: 300px;
+}
+
+.carrus {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    max-height: 300px;
+    max-width: 400px;
+}
+
 .contenedor {
     position: absolute;
     top: 250px;
