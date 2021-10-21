@@ -40,6 +40,10 @@ body {
     box-shadow: 15px 15px 5px #444;
 }
 
+.card_menu {
+    display: flexbox;
+}
+
 .video_presentacion {
     font-size: 30px;
     font-style: normal;
