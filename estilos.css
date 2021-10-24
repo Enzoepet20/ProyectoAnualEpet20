@@ -2,6 +2,10 @@ body {
     background-image: url(fondo/433738.jpg);
     background-attachment: fixed;
 }
+h1, h2, h3, h4 , h5{
+    font-family: Lorem ipsum dolor sit amet;
+    color: white;
+}
 
 .izq {
     position: relative;
