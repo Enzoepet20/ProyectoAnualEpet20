@@ -82,8 +82,7 @@ body {
 }
 
 .menu_items li:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    transition: .4s;
+    background-color: rgba(255, 1, 1, 0.3);
 }
 
 .btn_menu {
@@ -132,4 +131,9 @@ a, li{
     text-align: center ;
     font-family: Lorem ipsum dolor sit amet;
     color: salmon;
+}
+h3.slider{
+    font-family: Lorem ipsum dolor sit amet;
+    color: white;
+    margin-left: 90px;
 }
