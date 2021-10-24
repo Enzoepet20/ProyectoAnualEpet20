@@ -117,8 +117,18 @@ ul.show {
 .ct-footer{
     position:fixed;
     width: 100%;
-    background-color: rgb(87, 25, 33);
-    color: white;
+    background-color: #ffffff;
+    opacity: 0.6;
     bottom: 0%;
     border-top: double;
+}
+.ct-footer-list-header{
+text-align: center ;
+    font-family: Lorem ipsum dolor sit amet;
+    color: salmon;
+}
+a, li{
+    text-align: center ;
+    font-family: Lorem ipsum dolor sit amet;
+    color: salmon;
 }
