@@ -7,19 +7,6 @@ h1, h2, h3, h4 , h5{
     color: white;
 }
 
-.izq {
-    position: relative;
-    left: 10px;
-    bottom: 200px;
-    max-width: 300px;
-}
-
-.derecha {
-    position: relative;
-    bottom: 200px;
-    max-width: 300px;
-}
-
 .carrus {
     position: absolute;
     top: 100px;
@@ -137,13 +124,11 @@ a, li{
     color: salmon;
 }
 h3.slider{
-    font-family: Lorem ipsum dolor sit amet;
-    color: white;
     margin-left: 90px;
-}
-.row{
-    text-align: right;
 }
 .mueblesdeintyext{
     margin-left: 210px;
+}
+.mueblestitulo{
+    text-align: center;
 }
