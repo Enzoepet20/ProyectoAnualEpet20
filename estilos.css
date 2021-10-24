@@ -114,3 +114,11 @@ ul.show {
 .btn-wsp:hover {
     background: #20ba5a;
 }
+.ct-footer{
+    position:fixed;
+    width: 100%;
+    background-color: rgb(87, 25, 33);
+    color: white;
+    bottom: 0%;
+    border-top: double;
+}
