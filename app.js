@@ -36,9 +36,9 @@ ctfooter.innerHTML += ` <footer class="ct-footer">
 <div class="container">
     <ul class="ct-footer-list text-center-sm">
         <li>
-            <h4 class="ct-footer-list-header">
+            <h5 class="ct-footer-list-header">
                 Sobre nosotros
-            </h4>
+            </h5>
             <ul>
                 <li>
                     <a href="">Empresa familiar</a>
@@ -48,20 +48,11 @@ ctfooter.innerHTML += ` <footer class="ct-footer">
                 </li>
             </ul>
         </li>
+        
         <li>
-            <h4 class="ct-footer-list-header">
-                Servicios
-            </h4>
-            <ul>
-                <li>
-                    <a href="">Sales</a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <h4 class="ct-footer-list-header">
-                Contacto
-            </h4>
+            <h5 class="ct-footer-list-header">
+                Contactenos
+            </h5>
             <ul>
                 <li>
                     <a href="https://api.whatsapp.com/send?phone=+5492994181952">Whatsapp</a>
@@ -71,9 +62,6 @@ ctfooter.innerHTML += ` <footer class="ct-footer">
                 </li>
                 <li>
                     <a href="https://www.instagram.com/christian_beltran79/">Instagram</a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/Rayen_raa">Twitter</a>
                 </li>
             </ul>
         </li>
