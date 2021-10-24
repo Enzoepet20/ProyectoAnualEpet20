@@ -36,9 +36,9 @@ ctfooter.innerHTML += ` <footer class="ct-footer">
 <div class="container">
     <ul class="ct-footer-list text-center-sm">
         <li>
-            <h2 class="ct-footer-list-header">
+            <h4 class="ct-footer-list-header">
                 Sobre nosotros
-            </h2>
+            </h4>
             <ul>
                 <li>
                     <a href="">Empresa familiar</a>
@@ -49,9 +49,9 @@ ctfooter.innerHTML += ` <footer class="ct-footer">
             </ul>
         </li>
         <li>
-            <h2 class="ct-footer-list-header">
+            <h4 class="ct-footer-list-header">
                 Servicios
-            </h2>
+            </h4>
             <ul>
                 <li>
                     <a href="">Sales</a>
@@ -59,9 +59,9 @@ ctfooter.innerHTML += ` <footer class="ct-footer">
             </ul>
         </li>
         <li>
-            <h2 class="ct-footer-list-header">
+            <h4 class="ct-footer-list-header">
                 Contacto
-            </h2>
+            </h4>
             <ul>
                 <li>
                     <a href="https://api.whatsapp.com/send?phone=+5492994181952">Whatsapp</a>
