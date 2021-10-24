@@ -41,18 +41,18 @@ body {
 }
 
 .menu {
-    position: sticky;
+    position:sticky;
     z-index: 1000;
     top: 0;
     background: white;
     width: 100%;
-    background-color: #FF0035;
+    background-color:salmon;
     width: 100vw;
-    height: 75px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+    box-shadow: 5px 0 6px rgba(255, 121, 121, 0.6);
 }
 
 .logo {
@@ -121,6 +121,7 @@ ul.show {
     opacity: 0.6;
     bottom: 0%;
     border-top: double;
+    border-color: salmon;
     height: 190px;
 }
 .ct-footer-list-header{
