@@ -114,32 +114,3 @@ ul.show {
 .btn-wsp:hover {
     background: #20ba5a;
 }
-
-.ct-footer-list {
-    background: #e9cbcb;
-    list-style: none;
-    width: 100%;
-}
-
-.ct-footer-list-header h2 {
-    color: rgb(206, 91, 93)(45, 220, 243);
-}
-
-.ct-footer-list li {
-    color: rgb(206, 91, 93)(45, 220, 243);
-    width: 20%;
-    display: table-cell;
-    vertical-align: top;
-}
-
-.ct-footer-list li:last-child {
-    width: 7%
-}
-
-.ct-footer-list li ul li a {
-    color: rgb(162, 76, 76);
-}
-
-.ct-footer-list li ul li a:hover {
-    text-decoration: underline;
-}
