@@ -34,38 +34,17 @@ boton_wpp.innerHTML += `<a href="https://api.whatsapp.com/send?phone=+5492994181
 let ctfooter = document.getElementById("ct-footer");
 ctfooter.innerHTML += ` <footer class="ct-footer">
 <div class="container">
-    <ul class="ct-footer-list text-center-sm">
-        <li>
             <h5 class="ct-footer-list-header">
                 Sobre nosotros
             </h5>
-            <ul>
-                <li>
-                    <a href="">Empresa familiar</a>
-                </li>
-                <li>
-                    <a href="">Clientes</a>
-                </li>
-            </ul>
-        </li>
-        
-        <li>
+                    <a href="">Empresa familiar</a> <br/>
+                    <a href="">Clientes</a><br/>
             <h5 class="ct-footer-list-header">
                 Contactenos
             </h5>
-            <ul>
-                <li>
-                    <a href="https://api.whatsapp.com/send?phone=+5492994181952">Whatsapp</a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/rayen.millahual.12">Facebook</a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/christian_beltran79/">Instagram</a>
-                </li>
-            </ul>
-        </li>
-
+                    <a href="https://api.whatsapp.com/send?phone=+5492994181952">Whatsapp</a><br/>
+                    <a href="https://www.facebook.com/rayen.millahual.12">Facebook</a><br/>
+                    <a href="https://www.instagram.com/christian_beltran79/">Instagram</a><br/>
 </footer>`
 
 function showmenu() {
