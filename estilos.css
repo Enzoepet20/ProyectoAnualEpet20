@@ -98,6 +98,7 @@ ul.show {
     background: #25d366;
     border-radius: 50px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
 }
 
 .btn-wsp:hover {
@@ -123,7 +124,7 @@ a, li{
     font-family: Lorem ipsum dolor sit amet;
     color: salmon;
 }
-h3.slider{
+h1.slider{
     margin-left: 90px;
 }
 .mueblesdeintyext{
