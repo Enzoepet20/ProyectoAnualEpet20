@@ -33,7 +33,7 @@ boton_wpp.innerHTML += `<a href="https://api.whatsapp.com/send?phone=+5492994181
 </a> `
 let ctfooter = document.getElementById("ct-footer");
 ctfooter.innerHTML += ` <footer class="ct-footer">
-<div class="container">
+<div class="containers">
             <h5 class="ct-footer-list-header">
                 Sobre nosotros
             </h5>
