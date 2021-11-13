@@ -42,7 +42,7 @@ h5 {
     top: 0;
     background: white;
     width: 100%;
-    background-color: darkred;
+    background-color: salmon;
     width: 100vw;
     height: 60px;
     display: flex;
@@ -78,7 +78,7 @@ h5 {
 }
 
 .menu_items li:hover {
-    background-color: rgba(255, 1, 1, 0.3);
+    background-color: rgb(226, 7, 66);
 }
 
 .btn_menu {
@@ -124,14 +124,12 @@ ul.show {
 }
 
 .ct-footer {
-    position: relative;
-    width: 100%;
     background-color: #ffffff;
     opacity: 0.6;
     bottom: 0%;
     border-top: double;
     border-color: salmon;
-    height: 240px;
+    width: 100%;
 }
 
 .ct-footer-list-header {
