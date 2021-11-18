@@ -149,10 +149,25 @@ h1.slider {
 }
 
 .mueblesdeintyext {
-    margin-left: 177px;
+    margin-left: 75px;
     justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
 }
 
 .mueblestitulo {
     text-align: center;
+    font-weight: 900;
+}
+
+.video {
+    position: relative;
+    left: 650px;
+    bottom: 200px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 5px #444;
+}
+
+.slider {
+    font-weight: 900;
 }
